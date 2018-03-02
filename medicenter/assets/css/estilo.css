@@ -7,7 +7,7 @@ body{
 header{
   display: flex;
   justify-content: center;
-  height: 120px;
+  min-height: 120px;
 }
 .container{
   display: flex;
@@ -46,8 +46,100 @@ nav a:hover{
   transition: background-color, color .1s;
 }
 .banner{
+  display: flex;
+  justify-content: center;
   background-image: url(../imagens/banner.jpg);
   background-position: center;
   background-size: cover;
   height: 670px
+}
+.column{
+  flex-direction: column;
+}
+.banner-outline{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-outline h1{
+  max-width: 350px;
+  color: #fff;
+  font-size: 60px;
+  text-shadow: 0 2px 0 #555;
+  margin: 0;
+  padding: 0;
+}
+.banner-outline h2{
+  max-width: 350px;
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+}
+.banner-options{
+  display: flex;
+  min-height: 210px;
+}
+.banner-one{
+  flex: 1;
+  padding: 20px;
+  background-color: #42B3E5;
+}
+.banner-duo{
+  flex: 1;
+  padding: 20px;
+  background-color: #0384CE;
+}
+.banner-tree{
+  flex: 1;
+  padding: 20px;
+  background-color: #3156A3;
+}
+.banner-title{
+  color: #fff;
+}
+.banner-text{
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.banner-btn a{
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.banner-btn a:hover{
+  background-color: #fff;
+  color: #000;
+  transition: background-color color .5s;
+}
+.anterior,
+.proximo{
+  width: 33px;
+  height: 33px;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  float: right;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.anterior:hover, .proximo:hover{
+  border: 1px solid #fff;
+  transition: border .5s;
+}
+.banner-horario{
+  padding-bottom: 11px;
+  margin-bottom: 11px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.banner-horario span{
+  float: right;
 }
