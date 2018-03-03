@@ -143,3 +143,39 @@ nav a:hover{
 .banner-horario span{
   float: right;
 }
+#conteudo{
+  display: flex;
+  justify-content: center;
+}
+#conteudo section{
+  flex: 2;
+  display: flex;
+}
+#conteudo aside{
+  flex: 1;
+}
+.widget-title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.widget-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+.widget-bar{
+  width: 50px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: #42B3E5;
+}
+.widget-body{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.body-item{
+  width: 100px;
+  height: 100px;
+  background-color: #42B3E5;
+  margin: 10px;
+}
