@@ -179,3 +179,34 @@ nav a:hover{
   background-color: #42B3E5;
   margin: 10px;
 }
+.make{
+  display: flex;
+}
+.body-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-right: 1px solid #e5e5e5;
+}
+.body-img img{
+  margin-left: 20px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+.active{
+  background-color: #f0f0f0;
+}
+.text a{
+  text-decoration: none;
+  color: #3976c2;
+}
+.text a:hover{
+  text-decoration: underline;
+  transition: text-decoration .5s;
+}
