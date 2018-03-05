@@ -173,6 +173,66 @@ nav a:hover{
   flex-direction:row;
   flex-wrap: wrap;
 }
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+article a{
+  text-decoration: none;
+}
+article{
+  flex: 1;
+  min-width: 300px;
+  margin-right: 10px;
+}
+article .news-date{
+  display: flex;
+}
+article .news-posted-in{
+  background-color: #2b4c99;
+  padding: 10px;
+  color: #fff;
+  margin-right: 2px;
+}
+article .news-coments, .eff{
+  background-color: #39aae1;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+article .eff:hover{
+  text-decoration: underline;
+  transition: text-decoration .5s;
+}
+article .news-thumbnail{
+  margin-top: 20px;
+}
+article .news-thumbnail img{
+  width: 100%;
+  height: auto;
+}
+article .news-title{
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+article .news-resume{
+  font-size: 15px;
+  color: #5c5c5c;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+article .news-resume a{
+  color: #5c5c5c;
+}
+article .news-resume .news-link{
+  color: #3156A3;
+}
+article .news-resume .news-link:hover{
+  text-decoration: underline;
+}
 .body-item{
   width: 100px;
   height: 100px;
@@ -209,4 +269,20 @@ nav a:hover{
 .text a:hover{
   text-decoration: underline;
   transition: text-decoration .5s;
+}
+/* estudar esse codigo */
+.pointer {
+    background-color: #2B4C99; /* azul */
+    position: absolute;
+    width: 18px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.white-block {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-top-left-radius: 14px;
+    position: relative; /* position e left suavizam a "pontinha" */
+    left: -2px;
 }
