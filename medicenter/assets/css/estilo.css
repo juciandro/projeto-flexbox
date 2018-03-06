@@ -286,3 +286,69 @@ article .news-resume .news-link:hover{
     position: relative; /* position e left suavizam a "pontinha" */
     left: -2px;
 }
+/* !------------ */
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #2E3033;
+}
+.flexColum{
+  flex-direction: column;
+}
+.infor{
+  display: flex;
+}
+.infor a{
+  text-decoration: none;
+  color: #fff;
+}
+.infor-location{
+  display: flex;
+  flex: 1;
+  padding: 25px;
+  background-color: #42B3E5;
+  color: #fff;
+}
+.infor-location-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+.location-title{
+  font-size: 28px;
+}
+
+.infor-cell{
+  display: flex;
+  flex: 1;
+  padding: 25px;
+  background-color: #0384CE;
+  color: #fff;
+}
+
+.infor-mail{
+  display: flex;
+  flex: 1;
+  padding: 25px;
+  background-color: #3156A3;
+  color: #fff;
+}
+footer .infor-item{
+  color: #fff;
+}
+.infor-area{
+  display: flex;
+}
+.infor-item{
+  flex: 1;
+}
+.foot-copy{
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #8f8f8f;
+  font-size: 15px;
+  border-top: 1px solid #666666;
+}
