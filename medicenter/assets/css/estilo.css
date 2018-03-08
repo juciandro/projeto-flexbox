@@ -348,7 +348,13 @@ footer .infor-item{
 }
 .infor-item{
   flex: 1;
-  padding-right: 20px;
+}
+.infor-item a{
+  text-decoration: none;
+  color: #fff;
+}
+.infor-item a:hover{
+  text-decoration: underline;
 }
 .foot-copy{
   margin-top: 20px;
@@ -378,4 +384,25 @@ footer .infor-item{
 }
 .footer-icon-text a:hover{
   text-decoration: underline;
+}
+.footer-left{
+  margin-right: 65px;
+}
+.footer-item{
+  margin-bottom: 10px;
+}
+.post-date{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #686F78;
+  text-transform: uppercase;
+}
+.marg{
+  margin-right: 20px;
+}
+footer
+.proximo:hover,
+.anterior:hover{
+  border: 1px solid #42B3E5;
+  transition: border .5s;
 }
