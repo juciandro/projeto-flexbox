@@ -264,7 +264,7 @@ article .news-resume .news-link:hover{
 }
 .text a{
   text-decoration: none;
-  color: #3976c2;
+  color: #3156A3;
 }
 .text a:hover{
   text-decoration: underline;
@@ -356,14 +356,6 @@ footer .infor-item{
 .infor-item a:hover{
   text-decoration: underline;
 }
-.foot-copy{
-  margin-top: 20px;
-  height: 40px;
-  line-height: 40px;
-  color: #8f8f8f;
-  font-size: 15px;
-  border-top: 1px solid #666666;
-}
 .footer-text{
   font-size: 17px;
   margin-bottom: 20px;
@@ -405,4 +397,27 @@ footer
 .anterior:hover{
   border: 1px solid #42B3E5;
   transition: border .5s;
+}
+.footer-copy{
+  margin-top: 20px;
+  height: 70px;
+  line-height: 70px;
+  color: #8f8f8f;
+  font-size: 15px;
+  border-top: 1px solid #666666;
+}
+.footer-termos{
+  float: right;
+}
+.footer-termos a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: 25px;
+}
+.footer-termos a:hover{
+  text-decoration: underline;
+}
+.footer-termos span{
+  margin-right: 30px;
+  margin-left: 20px;
 }
