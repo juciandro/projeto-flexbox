@@ -12,7 +12,7 @@ header{
 .container{
   display: flex;
   justify-content: space-between;
-  width: 1228px;
+  width: 1230px;
 }
 .logo{
   display: flex;
@@ -233,6 +233,38 @@ article .news-resume .news-link{
 article .news-resume .news-link:hover{
   text-decoration: underline;
 }
+article .new-classe{
+  color: #999;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+article .new-classe span{
+  border-right: 1px solid #e5e5e5;
+  padding-right: 15px;
+}
+article .new-classe a{
+  color: #999;
+}
+article .new-classe a:hover{
+  text-decoration: underline;
+  color: #3156A3;
+}
+article .new-mais a{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  float: right;
+  color: #3156A3;
+}
+.new-mais a:hover{
+  text-decoration: underline;
+}
+article .new-bar{
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: #E5E5E5;
+}
 .body-item{
   width: 100px;
   height: 100px;
@@ -269,6 +301,17 @@ article .news-resume .news-link:hover{
 .text a:hover{
   text-decoration: underline;
   transition: text-decoration .5s;
+}
+.comentars-text{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #3156A3;
+  font-size: 18px;
+}
+.comentars-autor{
+  float: right;
+  color: #999;
 }
 /* estudar esse codigo */
 .pointer {
@@ -420,4 +463,18 @@ footer
 .footer-termos span{
   margin-right: 30px;
   margin-left: 20px;
+}
+.scroll-topo{
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  right: 30px;
+  bottom: 29px;
+  text-align: center;
+}
+.scroll-topo:hover{
+  background-color: #42B3E5;
+  transition: background-color .5s;
 }
