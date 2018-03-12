@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, user-scalable=0">
     <title>MediCenter</title>
     <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
     <!--cabeçalho-->
     <header>
-
       <div class="container">
         <div class="logo">
           <a href="#">
@@ -19,7 +20,15 @@
         </div>
         <div class="menu">
           <nav>
-            <ul>
+            <div id="hamburger" class="menu-mobile">
+              <div class="mobile-line">
+              </div>
+              <div class="mobile-line">
+              </div>
+              <div class="mobile-line">
+              </div>
+            </div>
+            <ul id="click-menu">
               <li class="active"><a href="">Home</li></a>
               <li><a href="">Home</li></a>
               <li><a href="">Blog</li></a>
@@ -486,5 +495,11 @@
     <div class="scroll-topo">
       &and;
     </div>
+        <script>
+            $( "#hamburger" ).click(function() {
+            $( "#click-menu" ).slideToggle( "slow" );
+            });
+        </script>
+
   </body>
 </html>

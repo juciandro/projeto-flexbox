@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+  .banner-outline h1{
+    font-size: 55px;
+  }
+  .banner-outline h2{
+    font-size: 17px;
+  }
+  .banner-outline{
+    padding: 20px;
+  }
+  .banner-options{
+    flex-direction: column;
+    height: auto;
+  }
+  header .container{
+    flex-direction: row;
+  }
+  header{
+    height: auto;
+  }
+  .logo{
+    padding-left: 20px;
+  }
+  nav ul {
+    flex-direction: column;
+    display: none;
+  }
+  .menu-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .mobile-line{
+    height: 5px;
+    background-color: #39aae1;
+  }
+  .container{
+    flex-direction: column;
+  }
+  #conteudo section,
+  #conteudo aside{
+    padding: 20px;
+  }
+  .infor{
+    flex-direction: column;
+  }
+  .infor-area{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-icon-text{
+    margin-right: 7px;
+  }
+  .footer-copy{
+    padding-left: 20px;
+  }
+  article .new-mais a{
+    margin-bottom: -40px;
+  }
+}
