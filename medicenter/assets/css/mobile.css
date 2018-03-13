@@ -37,7 +37,10 @@
   .container{
     flex-direction: column;
   }
-  #conteudo section,
+  #conteudo section{
+    padding: 20px;
+    margin-top: 135px;
+  }
   #conteudo aside{
     padding: 20px;
   }
