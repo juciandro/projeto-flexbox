@@ -460,11 +460,12 @@ footer .infor-item{
   margin-bottom: 20px;
 }
 .footer-icon img{
+  float: left;
   padding-right: 15px;
 }
-.footer-icon-text{
-  float: inline-end;
-}
+/* .footer-icon-text{
+  float: inline;
+} */
 .footer-icon-text a{
   text-decoration: none;
   color: #fff;
@@ -474,6 +475,7 @@ footer .infor-item{
 }
 .footer-left{
   margin-right: 65px;
+  float: left;
 }
 .footer-item{
   margin-bottom: 10px;
@@ -484,7 +486,7 @@ footer .infor-item{
   color: #686F78;
   text-transform: uppercase;
 }
-.marg{
+.marg{/*margin do indicador listed post*/
   margin-right: 20px;
 }
 footer

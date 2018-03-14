@@ -24,6 +24,11 @@
   nav ul {
     flex-direction: column;
     display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    float: left;
+    background-color: #fff;
   }
   .menu-mobile{
     display: flex;
@@ -59,5 +64,8 @@
   }
   article .new-mais a{
     margin-bottom: -40px;
+  }
+  .footer-left {
+    margin-right: 100px;
   }
 }
