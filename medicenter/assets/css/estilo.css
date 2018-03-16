@@ -9,6 +9,7 @@ header{
   display: flex;
   justify-content: center;
   min-height: 120px;
+  background-color: #fff;
 }
 .container{
   display: flex;
